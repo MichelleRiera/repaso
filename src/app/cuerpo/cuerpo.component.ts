@@ -18,4 +18,10 @@ export class CuerpoComponent {
     this.enviarmensaje.emit(this.name);
   }
 
+  calcular() {
+    console.log('Hola UPS', this.enviar);
+    this.enviar = this.enviar ;
+    ;
+  }
+
 }
