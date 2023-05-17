@@ -9,6 +9,14 @@ import { contacto } from './contacto';
 })
 export class ContactoComponent {
   contacto = new contacto();
+
+  guardar2() {
+    console.log('hola ups', this.contacto.nombre);
+  
+    this.contacto.c = this.contacto.cedula + this.contacto.nombre;
+  
+    console.log('c:', this.contacto.c);
+  }
   
  
 
